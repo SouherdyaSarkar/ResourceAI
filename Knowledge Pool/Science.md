@@ -99,3 +99,47 @@ Endpoint: https://zenodo.org/api/records
 
 Source: https://developers.zenodo.org/
 
+ 1. Open Science Framework (OSF) API
+
+
+
+Uses: Programmatic access to research projects, files, components, versioning, logs hosted via the OSF (good for open science workflows, reproducibility).
+
+Endpoint: https://api.osf.io/v2/ (for example: GET /v2/projects/ to list)
+Source: https://help.osf.io/article/393-api-integrations 
+
+2. Materials Cloud API
+
+
+
+Uses: A platform for open computational science (particularly materials modelling) offering data, workflows, provenance, simulation results. 
+Endpoint: Specific endpoints vary by service, but via their web platform; e.g., https://www.materialscloud.org/…/api (see platform documentation)
+Source: “Materials Cloud, a platform for open computational science” paper. 
+
+3. TAPIs (CyVerse) REST API
+
+
+
+Uses: Science-as-a-service API platform (CyVerse) for data store, authentication, HPC resources, workflows in life & environmental sciences. 
+Endpoint: https://terrain.cyverse.org/terrain/v2/ (for example)
+Source: “Science APIs — CyVerse” documentation. 
+
+4. PUBTator API
+
+
+
+Uses: Biomedical literature resource with semantic/relations annotations of genes, diseases, chemicals; ideal for advanced life-science text mining. 
+Endpoint: https://www.ncbi.nlm.nih.gov/research/pubtator3/api/ (for example)
+Source: PubTator 3.0 paper. 
+
+5. Data Commons API
+
+
+
+Uses: Open knowledge graph / dataset platform combining public datasets (science, environment, socio-economic) accessible via API and graph queries. 
+Endpoint: e.g., https://api.datacommons.org/ or SPARQL endpoint via datacommons.org
+Source: Wikipedia summary of Data Commons. 
+
+
+
+
