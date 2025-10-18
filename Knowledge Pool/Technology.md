@@ -59,5 +59,45 @@ https://search.rcsb.org/rcsbsearch/v2/query
 
 Source: https://data.rcsb.org/#gql-api
 
+Technology
+
+1. Azure DevOps Services REST API
+
+
+
+Uses: For software development operations: work items, CI/CD pipelines, repos, artifacts in Microsoft’s Azure DevOps environment. 
+Endpoint: https://dev.azure.com/{organization}/_apis/{area}/{resource}?api-version={version} 
+Source: Microsoft documentation. 
+
+2. GitHub REST API
+
+
+
+Uses: Manage repos, commits, issues, pull requests, workflows on GitHub (ideal for tech integration, metrics, analytics).
+Endpoint: https://api.github.com/repos/{owner}/{repo}
+Source: Official GitHub REST API docs (from your original list)
+
+3. Google APIs Explorer
+
+
+
+Uses: Portal to access many Google service APIs (Compute, Storage, Machine Learning, Maps, etc). Useful in tech architectures. 
+Endpoint: Via APIs Explorer UI; individual endpoints like https://www.googleapis.com/{service}/{version}/{resource}
+Source: Google Developers site. 
+
+4. Swagger (OpenAPI) Tools API
+
+
+
+Uses: Tools/API for designing, documenting, testing other REST APIs (important for tech architecture, internal services). 
+Endpoint: E.g., https://api.swagger.io/… (tool-specific)
+Source: Wikipedia entry on Swagger. 
+
+5. RAML API igning RESTful APIs; helps build and integrate tech APIs in large systems. 
+Endpoint: RAML is a specification not a single endpoint, but used with tools like https://api.raml.org/
+Source: Wikipedia entry on RAML. 
+
+
+
 
 
