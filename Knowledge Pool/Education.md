@@ -45,4 +45,49 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IkhTMjNiN0RvN1
 
 Source: https://learn.microsoft.com/en-us/rest/api/cognitiveservices/
 
+1. Open Education API (OOAPI)
+
+
+
+Uses: Standard API for higher education institutions (Netherlands) to expose data such as schedules, free workstations, study credits; useful in dashboards/apps. 
+Endpoint: For example: https://openonderwijsapi.nl/api/v1/… 
+Source: SURFnet documentation. 
+
+2. Edu‑API (1EdTech)
+
+
+
+Uses: Standard model for exchange of core enterprise data in education (student info systems, enrollments, outcomes) to support smarter teaching/learning tools. 
+Endpoint: Specification rather than single endpoint; e.g., institutions implement endpoints like /students, /courses, /enrollments per spec.
+Source: 1EdTech overview. 
+
+3. Education Data Explorer API (Urban Institute)
+
+
+
+Uses: U.S. education data (public elementary/secondary statistics) with API access for analytics, dashboards, research. 
+Endpoint: https://educationdata.urban.org/api/v1/ (e.g., /schools/)
+Source: Urban Institute API documentation. 
+
+4. eLeaP LMS API
+
+
+
+Uses: LMS API (for eLeaP) to manage courses, users, compliance training – useful for edu/enterprise training environments. 
+Endpoint: https://api.eleapsoftware.com/v2/ (depending on account)
+Source: eLeaP LMS API documentation. 
+
+5. Google Classroom API
+
+
+
+Uses: Manage Google Classroom courses, assignments, students — widely used in K-12 / higher-ed for integration and automation. 
+Endpoint: https://classroom.googleapis.com/v1/ (e.g., /courses, /courses/{courseId}/students)
+Source: GetStream blog referencing Google Classroom API. 
+
+
+
+
+
+
 
